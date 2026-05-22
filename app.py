@@ -114,6 +114,13 @@ PLOTLY_THEME = dict(
 
 # ── Sidebar filters ───────────────────────────────────────────────────────────
 with st.sidebar:
+    st.markdown("""
+    <div style='padding: 12px 0 16px 0; color: #8b92a5; font-size: 0.8rem; line-height: 1.5;'>
+        Dibuat oleh<br>
+        <span style='color: #c8cfe0; font-weight: 600;'>Kartiko Cokro Sewoyo</span><br>
+        <span style='color: #4f8ef7;'>DJPb</span>
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown("## 🔍 Filter Data")
     st.markdown("---")
 
